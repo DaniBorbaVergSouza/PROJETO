@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaborExpress - Início</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="cadastrofunc">
+        <div class="container">
+            <img src="./assets/logo3.png" alt="SaborExpress Logo" class="logolado3">
+            <h1 class="titulo1">CADASTRO DE FUNCIONÁRIOS</h1>
+        </div>
+
+            <form action="/path_to_register_endpoint" method="post">
+
+                <div class = grupo_funcionario>
+                    <div class="label_funcionario">
+                        <div class="Linha1_funcionario">
+                            <label for="cpf"><b>CPF:</b></label>
+                            <label for="nome"> <b>Nome Completo:</b></label>
+                        </div>
+                    </div>    
+
+                    <div class="entrada_funcionario">
+                        <div class="Linha2_funcionario">
+                            <input type="cpf" id="cpf" cpf="cpf" required class="cadastro_cpf">                  
+                            <input type="nome" id="nome" nome="nome" required class="cadastro_nome">
+                        </div>
+                    </div>
+
+                    <div class="confirmar_botao">
+                        <div class="Linha3_confirmar">
+                            <input type="button" value="Confirmar" class="confir">
+                        </div>
+                    </div>  
+                </div>
+                             
+                    
+                <div class="titulo_da_caixa">
+                    <div><span><b>CPF</span><span>NOME COMPLETO</span><span>OP</b></span></div> 
+                </div>
+                 
+                <div class="resultado_da_caixa">
+                    <div class="editar_funcionario">
+                        <img src="./assets/editar2.png" alt="Editar" class="editar">
+                        <img src="./assets/inativar2.png" alt="Inativar" class="inativar">
+                        <img src="./assets/excluir2.png" alt="Excluir" class="excluir">  
+                    </div> 
+                </div>
+
+            </form>
+                <a href="pag5cadprod.html"><strong>proximapagina</strong></a>
+            </div>
+
+    </main>
+    <footer>
+        <p>© 2024 SaborExpress. Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

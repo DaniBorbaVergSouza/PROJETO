@@ -1,0 +1,874 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--cor-texto-principal);
+
+}
+
+:root{
+    --cor-primaria: #FFB444;
+    --cor-secundaria: #FFC26C;
+    --cor-texto-principal: #000000;
+}
+
+body {     /*Corpo*/
+    height: 100vh;
+    width: 100%;    
+    background-color: var(--cor-secundaria);
+    font-family: 'Helvetica Neue', Arial, sans-serif;    
+}
+
+.main-content{
+    flex-direction: column;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+
+/*-------------------PAGINA HOME GERAL (LOGIN)------------------------------*/
+.logo {
+    width: 300px; /* Altere conforme o tamanho da sua logo*/
+    margin: 0px 520px;
+    align-items: center;
+    }
+    
+.login {
+    text-align: center;
+    position: relative; /* Necessário para o posicionamento absoluto */
+}
+
+.login label {
+    display: block; /* Para que a largura funcione corretamente */
+    width: 100%; /* Para ocupar a largura total da div */
+    bottom: 20px; /* Posiciona o label 20px acima do fundo */
+}
+
+.entrada{
+    width: 250px; /* Reduzi a largura dos campos de entrada */
+    height: 25px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0 0 4px black; /* Esquerda cima */
+    border: none;
+}
+
+.password {
+    width: 250px; /* Reduzi a largura dos campos de entrada */
+    height: 25px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0 0 4px black; /* Esquerda cima */
+    border: none;
+}
+
+.entrada::placeholder, .password::placeholder {
+    color: black;
+    text-align: center;
+}
+
+/*-------------------------------------------------------------------*/
+.cadastro{
+    flex-direction: column;
+    font-size: 1.6rem;
+    align-items: center;
+}
+
+.cadprod{
+    font-size: 3.5rem;
+    margin: 0px 350px;
+}
+/*------------------PAGINA 2 CADASTRE-SE----------------------*/
+
+
+.nome{
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0 0 4px black; /*esquerda cima */
+    border: none;
+}
+
+.cpf{
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0 0 4px black; /*esquerda cima */
+    border: none;
+}
+
+.email{
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0 0 4px black; /*esquerda cima */
+    border: none;
+}
+
+.senha{
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0 0 4px black; /*esquerda cima */
+    border: none;
+}
+
+
+/*------------------PAGINA HOME DO CLIENTE----------------------*/
+
+.l1cliente{
+    display: flex;
+    align-items: center;
+    gap: 150px; /* Adiciona espaçamento uniforme entre todos os elementos */
+    height: 150px;
+    margin-left: 300px;
+}
+
+.caixa_carne {
+    background-color:  #FFB444; /* Cor de fundo da caixa */
+    border: 2px solid #000000; /* Borda da caixa */
+    padding: 10px; /* Espaçamento interno da caixa */
+    text-align: center; /* Alinhamento do texto dentro da caixa */
+    font-size: 25px; /* Tamanho da fonte do texto */
+   
+} 
+
+.carne{
+    width: 150px;
+}
+
+.frango {
+    width: 150px;
+}
+
+.hamburguer {
+    width: 150px;
+}
+
+.caixa_frango {
+    width: 150px; /* Largura da caixa */
+    height: 105px; /* Altura da caixa */
+    background-color:  #FFB444; /* Cor de fundo da caixa */
+    border: 2px solid #000000; /* Borda da caixa */
+    padding: 10px; /* Espaçamento interno da caixa */
+    text-align: center; /* Alinhamento do texto dentro da caixa */
+    font-size: 25px; /* Tamanho da fonte do texto */
+} 
+
+.caixa_hamburguer {
+    width: 150px; /* Largura da caixa */
+    height: 105px; /* Altura da caixa */
+    background-color:  #FFB444; /* Cor de fundo da caixa */
+    border: 2px solid #000000; /* Borda da caixa */
+    padding: 10px; /* Espaçamento interno da caixa */
+    text-align: center; /* Alinhamento do texto dentro da caixa */
+    font-size: 25px; /* Tamanho da fonte do texto */
+} 
+
+
+.l1clientetxt{
+    display: flex;
+    align-items: center;
+    gap: 115px; /* Adiciona espaçamento uniforme entre todos os elementos */
+    height: 50px;
+}
+
+.carne_txt {
+    width: 200px;
+    margin-left: 350px;
+    }
+
+.frango_txt {
+    width: 200px;
+}
+
+.hamburguer_txt {
+    width: 200px;
+}
+
+.l2cliente{
+    display: flex;
+    align-items: center;
+    gap: 150px; /* Adiciona espaçamento uniforme entre todos os elementos */
+    height: 150px;
+    margin-left: 300px;
+}
+
+.caixa_ovo{
+    width: 150px; /* Largura da caixa */
+    height: 105px; /* Altura da caixa */
+    background-color:  #FFB444; /* Cor de fundo da caixa */
+    border: 2px solid #000000; /* Borda da caixa */
+    padding: 10px; /* Espaçamento interno da caixa */
+    text-align: center; /* Alinhamento do texto dentro da caixa */
+    font-size: 25px; /* Tamanho da fonte do texto */
+} 
+
+.caixa_salsicha {
+    width: 150px; /* Largura da caixa */
+    height: 105px; /* Altura da caixa */
+    background-color:  #FFB444; /* Cor de fundo da caixa */
+    border: 2px solid #000000; /* Borda da caixa */
+    padding: 10px; /* Espaçamento interno da caixa */
+    text-align: center; /* Alinhamento do texto dentro da caixa */
+    font-size: 25px; /* Tamanho da fonte do texto */
+} 
+
+.caixa_vegano {
+    width: 150px; /* Largura da caixa */
+    height: 105px; /* Altura da caixa */
+    background-color:  #FFB444; /* Cor de fundo da caixa */
+    border: 2px solid #000000; /* Borda da caixa */
+    padding: 10px; /* Espaçamento interno da caixa */
+    text-align: center; /* Alinhamento do texto dentro da caixa */
+    font-size: 25px; /* Tamanho da fonte do texto */
+} 
+
+.ovo{
+    width: 150px;
+}
+
+.salsicha{
+    width: 165px;
+}
+
+.vegano{
+    width: 123px;
+}
+
+
+
+.l2clientetxt{
+    display: flex;
+    align-items: center;
+    gap: 120px; /* Adiciona espaçamento uniforme entre todos os elementos */
+    height: 50px;
+}
+   
+.ovo_txt {
+    width: 450px;
+    margin-left: 350px;
+}
+  
+.salsicha_txt {
+    width: 450px;
+}
+   
+.vegano_txt {
+    width: 450px;
+}
+
+.abrefecha{
+    font-size: 30px;
+    margin: 0;
+}
+
+.data{
+    font-size: 25px;
+    margin: 0;
+    margin-left: 500px;
+}
+.hor {
+    font-size: 20px;
+    margin: 0;
+    margin-left: 1010px;
+}
+
+
+    
+
+/*------------------PAGINA HOME DO FUNCIONÁRIO----------------------*/
+
+
+.logolado_home {
+    width: 150px; /* imagem tamanho - logo lado - tela  */
+    margin-left: 500px;
+    }
+
+.linhaum_home{
+    display: flex;
+    align-items: center;
+    gap: 100px; /* Adiciona espaçamento uniforme entre todos os elementos */
+    height: 150px;
+}
+
+.estabelecimento {
+    width: 150px; /* imagem tamanho - logo lado - tela  */
+    margin-left: 300px;
+    }
+.funcionario {
+    width: 250px; /* imagem tamanho - logo lado - tela  */
+    }
+    
+.produto {
+    width: 150px; /* imagem tamanho - logo lado - tela  */
+    }
+
+.linhaumtexto{
+    display: flex;
+    align-items: center;
+    gap: 165px; /* Adiciona espaçamento uniforme entre todos os elementos */
+    height: 50px;
+}
+
+.estabelecimento_txt {
+    width: 150px;
+    margin-left: 300px;
+    }
+
+.funcionario_txt {
+    width: 150px;
+}
+
+.produto_txt {
+    width: 150px;
+}
+    
+
+.linhadois_home{
+    display: flex;
+    align-items: center;
+    gap: 160px; /* Adiciona espaçamento uniforme entre todos os elementos */
+    height: 200px;
+}
+
+.menu {
+    width: 150px; /* imagem tamanho - logo lado - tela  */
+    margin-left: 455px;
+}
+
+.pedido {
+    width: 150px; /* imagem tamanho - logo lado - tela  */
+}
+
+.linhadoistexto{
+    display: flex;
+    align-items: center;
+    gap: 240px; /* Adiciona espaçamento uniforme entre todos os elementos */
+    height: 10px;
+}
+
+.menu_txt{
+    margin-left: 510px;
+}
+
+.titulo2 {
+    font-size: 80px;
+    margin: 0;
+    margin: center;
+}
+
+
+
+
+/*----------------PAGINA CADASTRO FUNCIONARIO---------------------------*/
+
+
+.cadfun{
+    font-size: 5rem
+}
+
+.cadastro_cpf{
+    width: 200px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 80;    
+}
+
+.cadastro_nome{
+    width: 200px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 80;    
+}
+
+
+.logolado3 {
+    width: 150px; /* imagem tamanho - logo lado - tela  */
+    margin-left: 10px;
+    }
+
+.confir{
+    width: 100px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 0;
+}
+
+
+/*----------------PAGINA CLIENTE FAZER O PEDIDO (MONTAR O LANCHE)---------------------------*/
+
+.prot{
+    width: 200px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 25;
+}
+
+.paes{
+    width: 200px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 25;
+}
+
+.molho{
+    width: 200px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 25;
+}
+
+.adic{
+    width: 200px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 25;
+}
+
+.confimar{
+    width: 200px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 0;
+}
+
+/*-------------------PAGINA CLIENTE ENTREGA (PREENCHER DADOS) ----------------------*/
+
+.moto {
+    width: 200px; /* imagem tamanho - logo lado - tela */
+    margin: 0px 750px;
+    display: flex;
+    }
+
+.titulo_entrega{
+    display: flex;
+    align-items: center;
+}
+
+.confentrega{
+    width: 200px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 0;
+}
+
+
+.enderecos_label{
+    margin-top: 50px;
+    margin-left: 40px;
+    height: 80px;
+}
+
+.telefone_label{
+    margin-left: 40px;
+    height: 80px;
+}
+
+.observacoes_label{
+    margin-left: 40px;
+    height: 80px;
+}
+
+.botao_entrega{
+    margin-left: 850px;
+}
+
+.enderecos{
+    width: 1100px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0 0 4px black; /*esquerda cima */
+    border: none;
+}
+
+.telefones{
+    width: 1100px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0 0 4px black; /*esquerda cima */
+    border: none;
+}
+
+.observacoes{
+    width: 1100px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0 0 4px black; /*esquerda cima */
+    border: none;
+}
+
+    
+
+
+
+/*-------------------PAGINA 5 CADASTRO DE PRODUTOS-------------------------------*/
+
+.cadprod{
+    flex-direction: row;
+    align-items: center;
+}
+
+.caixa {
+    width: 1300px; /* Largura da caixa */
+    height: 18px; /* Altura da caixa */
+    background-color: #FFB444; /* Cor de fundo da caixa */
+    border: 2px solid #000000; /* Borda da caixa */
+    padding: 10px; /* Espaçamento interno da caixa */
+    font-size: 15px; /* Tamanho da fonte do texto */
+    margin-left: 20px;
+    margin: center; /* Centraliza horizontalmente */
+}
+
+.caixa div span {
+    margin-right: 350px; /* Ajusta o valor*/
+}
+
+  .caixa_resultado {
+    width: 1300px; /* Largura da caixa */
+    height: 200px; /* Altura da caixa */
+    background-color:  #FFB444; /* Cor de fundo da caixa */
+    border: 2px solid #000000; /* Borda da caixa */
+    padding: 10px; /* Espaçamento interno da caixa */
+    text-align: center; /* Alinhamento do texto dentro da caixa */
+    font-size: 25px; /* Tamanho da fonte do texto */
+    margin-left: 20px;
+  } 
+
+.teste_prof{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 45px;
+}
+
+.edicoes{
+    margin-left: 1250px;
+}
+
+.grupo { /*define um conteiner de coluna, vertical 10PX*/
+    display: flex;
+    flex-direction: column;
+}
+
+.Linha1 { /*definem contêineres de linha, horizontal 20PX */
+    display: flex;
+    gap: 165px;
+    margin-left: 60px;
+}
+
+.Linha2 {
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+    height: 45px;
+}
+
+.Linha1 label:nth-child(2) {
+    margin-right: 510px; /* Ajuste o valor da margem conforme necessário */
+}
+
+.image{
+    margin-left: 60px;
+    height: 40px;
+}
+
+.titulo1 {
+    font-size: 50px;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.conf{
+    width: 120px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 0;
+}
+
+
+.pro{
+    width: 300px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 0;
+}
+
+.pa{
+    width: 300px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black; /*box-shadow: deslocamento horizontal, vertical, desfoque da sombra, cor da sombra;  */
+    border: 0;
+}
+.mo{
+    width: 300px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 0;
+}
+.ad{
+    width: 300px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 0;
+}
+
+.codigo_produto{
+    width: 200px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0 0 4px black; /*esquerda cima */
+    border: none;
+    
+}
+
+.descricao_produto{
+    width: 750px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0 0 4px black; /*esquerda cima */
+    border: none;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.valor_produto{
+    width: 200px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0 0 4px black; /*esquerda cima */
+    border: none;    
+}
+
+
+
+/*-------------------PAGINA 6 PEDIDO ESTABELECIMENTO---------------*/
+
+/*-------------------PAGINA CLIENTE - PEDIDO---------------*/
+
+
+.confirmar_pedido{
+    margin-left: 250px;
+    width: 200px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 0;
+}
+
+.forma_pagamento img {
+    vertical-align: middle; /* Alinha verticalmente as imagens ao centro */
+    margin: 0 10px; /* Adiciona margem entre as imagens */
+}
+
+.tempo{
+    margin-left: 800px;
+}
+
+
+.pagamento{
+    margin-top: 500px; 
+}
+
+
+/*-------------------PAGINA CLIENTE STATUS-------------------*/
+
+
+#opcaoSelecionada {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    margin-top: 10px; /* Adiciona margem superior para separar do seletor */
+}
+
+
+/*--------------PAGINA 4 CADASTRO FUNCIONARIO -----------------------*/
+
+.titulo_da_caixa {
+    width: 1300px; /* Largura da caixa */
+    height: 18px; /* Altura da caixa */
+    background-color: #FFB444; /* Cor de fundo da caixa */
+    border: 2px solid #000000; /* Borda da caixa */
+    padding: 10px; /* Espaçamento interno da caixa */
+    font-size: 16px; /* Tamanho da fonte do texto */
+    margin-left: 20px;
+    margin: center; /* Centraliza horizontalmente */
+}
+
+.titulo_da_caixa div span {
+    margin-right: 365px; /* Ajusta o valor*/
+}
+
+.resultado_da_caixa{
+    width: 1300px; /* Largura da caixa */
+    height: 200px; /* Altura da caixa */
+    background-color:  #FFB444; /* Cor de fundo da caixa */
+    border: 2px solid #000000; /* Borda da caixa */
+    padding: 10px; /* Espaçamento interno da caixa */
+    text-align: center; /* Alinhamento do texto dentro da caixa */
+    font-size: 25px; /* Tamanho da fonte do texto */
+    margin-left: 20px;
+  } 
+
+.editar_funcionario{
+    margin-left: 550px;
+}
+
+.grupo_funcionario { /*define um conteiner de coluna, vertical 10PX*/
+    display: flex;
+    flex-direction: column;
+}
+
+.Linha1_funcionario { /*definem contêineres de linha, horizontal 20PX */
+    display: flex;
+    gap: 250px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.Linha2_funcionario{
+    display: flex;
+    gap: 70px;
+    margin-left: 20px;
+    height: 45px;
+}
+
+.cadastro_cpf{
+    width: 200px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0 0 4px black; /*esquerda cima */
+    border: none;      
+}
+
+
+.cadastro_nome{
+    width: 850px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: inset 0 0 4px black; /*esquerda cima */
+    border: none;      
+}
+
+
+.confir{
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: #FFB444;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 4px 10px black;
+    border: 0;
+}
+
+.confirmar_botao{
+    height: 50px;
+}
+
+/*-------------------PAGINA CADASTRO ESTABELECIMENTO--------------------------*/
+
+.nome_estab label{
+    text-align: left;
+}
+    
+
+/*----------------------------------------------------*/
+.login{
+    margin: 0px 550px;
+}   
+
+.realizarcadastro{
+    margin: 0px 550px;
+}  
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px; /*cabeçalho (cadastro)*/
+}
+
+nav ul li a {
+    color: var(--cor-texto-principal);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color:var(--cor-primaria); /*rodapé*/
+    color: var(--cor-texto-principal);
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

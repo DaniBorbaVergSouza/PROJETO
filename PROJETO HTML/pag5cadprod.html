@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaborExpress - Início</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="cadastro">
+        <div class="container">
+            <img src="./assets/logo3.png" alt="SaborExpress Logo" class="logolado3">
+            <h1 class="titulo1">CADASTRO DE PRODUTOS</h1>
+        </div>
+
+            
+            <form action="/path_to_register_endpoint" method="post">
+                <div class="teste_prof">
+                    <input type="button" value="Proteína" class="pro">
+                    <input type="button" value="Pães" class="pa">
+                    <input type="button" value="Molhos" class="mo">
+                    <input type="button" value="Adicionais" class="ad">
+                </div>
+
+                <div clas="grupo">
+                    <div class="texto_produto">
+                        <div class="Linha1">
+                            <label for="codigo">Código:</label>
+                            <label for="descricao">Descrição:</label>
+                            <label for="valor">Valor:</label>    
+                        </div>
+                    </div>
+
+                    <div class="cad_produto">
+                        <div class="Linha2">           
+                            <input type="codigo" id="codigo" codigo="codigo" required class="codigo_produto">                             
+                            <input type="descricao" id="descricao" descricao="descricao" required class="descricao_produto">
+                            <input type="valor" id="valor" valor="valor" required class="valor_produto">
+                        </div>
+                    </div>   
+
+                </div>            
+
+                <div class="image">
+                    <label for="imagem">Imagem:</label>
+                    <input type="file" id="imagem" name="imagem">  <!-- colocar um input para a image-->  
+                    <input type="button" value="Confirmar" class="conf">
+                </div>
+
+                <div class="caixa">
+                    <div><span><b>CÓDIGO</span><span>DESCRIÇÃO</span><span>VALOR</span><span>OP</b></span></div> 
+                </div>
+
+                <div class="caixa_resultado">
+                    <div class="edicoes">
+                    <img src="./assets/editar2.png" alt="Editar" class="editar">
+                    <img src="./assets/inativar2.png" alt="Inativar" class="inativar">
+                    <img src="./assets/excluir2.png" alt="Excluir" class="excluir">  
+                    </div> 
+                </div>  
+                
+            </form>
+                <a href="pag6cadpedidoesta.html"><strong>proximapagina</strong></a>
+    </main>
+    <footer>
+        <p>© 2024 SaborExpress. Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

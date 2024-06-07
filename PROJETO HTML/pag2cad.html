@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaborExpress - Início</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="cadastro">
+        <img src="./assets/logo2.png" alt="SaborExpress Logo" class="logo">
+        <div class="realizarcadastro">
+            <form action="/path_to_register_endpoint" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="nome" id="nome" name="nome" required class="nome">
+                    <p></p>
+                    <label for="cpf"> CPF:</label>
+                    <input type="cpf" id="cpf" name="cpf" required class="cpf">
+                    <p></p>
+                    <label for="email"> Email:</label>
+                    <input type="email" id="email" name="email" required class="email">
+                    <p></p>
+                    <label for="senha"> Senha:</label>
+                    <input type="senha" id="senha" name="senha" required class="senha">
+                    <p></p>
+                    <input type="radio" name="selecao" value="funcionario" /> Funcionário
+                    <input type="radio" name="selecao" value="cliente" /> Cliente
+                    <p></p>
+                    <label for="id"> ID:</label>
+                    <input type="id" id="id" name="id" required>
+            </form>
+            <a href="pag3func.html"><strong>Finalizar Cadastro</strong></a>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 SaborExpress. Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
+

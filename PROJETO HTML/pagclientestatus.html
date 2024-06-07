@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaborExpress - Início</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="status">
+        <div class="container">
+            <img src="./assets/logo3.png" alt="SaborExpress Logo" class="logolado3">
+            <h1 class="titulo1">PEDIDO REALIZADO COM SUCESSO!!!</h1>
+        </div>
+        
+        <label for="statped"><b>Status do Pedido:</b></label>
+            <div class="fim">
+            <form action="/path_to_register_endpoint" method="post">
+
+                <p>
+                    <!-- JavaScript para recuperar a opção selecionada da URL -->
+                    <script>
+                        // Função para obter parâmetros da URL
+                        function obterParametroUrl(nome) {
+                            const urlSearchParams = new URLSearchParams(window.location.search);
+                            return urlSearchParams.get(nome);
+                        }
+                
+                        // Obtém o valor da opção selecionada da URL
+                        const opcaoSelecionada = obterParametroUrl('opcao');
+                        document.write(opcaoSelecionada);
+                    </script>
+                </p>
+                
+
+                    <img src="./assets/motoentrega.png" alt="Motoentg" class="motoentg">
+                                    
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 SaborExpress. Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

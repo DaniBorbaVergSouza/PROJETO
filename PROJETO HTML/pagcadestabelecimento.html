@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaborExpress - Início</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+ <body>
+    
+    <main class="main-content">
+        <div class="container">
+            <img src="./assets/logo3.png" alt="SaborExpress Logo" class="logolado3">
+            <h1 class="titulo1">CADASTRO DO ESTABELECIMENTO</h1>
+        </div>
+        <div class="login">
+            <div class="principal">
+                <div class="nome_estab">            
+                    <label for="nome_res">NOME:</label> <!-- nome do restaurante -->
+                    <input type="nome_res" id="nome_res" name="nome_res"  required class="nome_res">
+                </div>
+            </div>
+                 
+            
+            <div class="entrada_img">
+                <div class="logo_imagem">
+                    <label for="imagem">LOGO RESTAURANTE:</label>
+                    <input type="file" id="imagem" name="imagem">  <!-- colocar um input para a image-->  
+                    <input type="button" value="Confirmar" class="conf">
+                </div>
+            </div>
+
+
+            
+            <div class="horario">
+                <div class="hora_funcionamento">
+                    <label for="Inicio">Inicio:</label> <!-- hora de funcionamento  -->
+                    <input type="hora" id="Inicio" name="Inicio" required> 
+                    <label for="Fim">Fim:</label>
+                    <input type="hora" id="fim" name="fim" required>
+                </div>
+            </div>
+
+            
+            </form>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+ </body>
+</html>
